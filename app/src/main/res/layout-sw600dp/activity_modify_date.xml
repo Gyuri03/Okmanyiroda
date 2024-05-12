@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ModifyDateActivity">
+
+    <TextView
+        android:id="@+id/modifyInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foglalás módosítása"
+        android:textSize="80sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modifyInfoTextView"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/dateStuff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="@string/pick_day"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/infoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/available_dates"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dayStuff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/daySpinner"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/dateSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/container"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+
+        <Button
+            android:id="@+id/bookDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Időpont módosítása"
+            android:layout_marginBottom="10dp"
+            android:onClick="bookDate"
+            android:textSize="40sp"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/cancel"
+            android:textSize="40sp"
+            android:onClick="cancel"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

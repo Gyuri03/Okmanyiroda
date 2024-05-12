@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Okmanyiroda</string>
+    <string name="email">Email cím</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="register_textview">Regisztráció</string>
+    <string name="registerInfo">Regisztrációhoz kérem töltse ki az alábbi mezőket.</string>
+    <string name="firstname">Keresztnév</string>
+    <string name="lastname">Vezetéknév</string>
+    <string name="passwordConfirm">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="selectInfo">Válasszon az alábbi lehetőségek közül</string>
+    <string name="pickDate">Időpont kiválasztása</string>
+    <string name="manageDate">Időpont módosítása</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">Ez nem tudom mi</string>
+    <string name="large_text">LARGE_TEXT</string>
+    <string name="pickInfo">Válasszon időpontot</string>
+    <string name="available_dates">Elérhető időpontok:</string>
+    <string name="book_date">Időpont lefoglalása</string>
+    <string name="pick_day">Nap kiválasztása:</string>
+    <string name="logout">Kijelentkezés</string>
+
+    <string-array name="dates">
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+    </string-array>
+</resources>

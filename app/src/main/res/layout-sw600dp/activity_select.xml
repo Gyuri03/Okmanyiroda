@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SelectActivity">
+
+    <TextView
+        android:id="@+id/selectInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectInfo"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectInfoTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pickDate"
+            android:textSize="60sp"
+            android:onClick="pickDate"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manageDate"
+            android:layout_marginTop="125dp"
+            android:onClick="manageDates"
+            android:textSize="60sp"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

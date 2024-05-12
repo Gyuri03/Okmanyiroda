@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "684031313656",
+    "project_id": "idopontfoglalo-f7b5c",
+    "storage_bucket": "idopontfoglalo-f7b5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684031313656:android:94a9f6495b9c2d61c85d0d",
+        "android_client_info": {
+          "package_name": "com.example.okmanyiroda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn5yjkDRWgTXdN7LAfE8eB2S60ydcfyeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
